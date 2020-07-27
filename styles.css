@@ -5,20 +5,25 @@ html, body, #app {
 
 #app {
   display: flex;
-  flex-wrap: wrap;
-
-  align-items: center;
-  justify-content: center;
-  align-content: space-between;
 }
 
 .box {
   width: 300px;
   height: 60px;
   margin: 5px;
-  background: #F00;
+}
   
-  /* padrão: */
-  /* flex-grow: 0; */
-  /* flex-shrink: 0; */
+.red {  
+  background: #F00;
+  order: 2
+}
+
+.green {
+  background: #0F0;
+  order: 1;
+}
+
+.blue {
+  background: #00F;
+  order: 0;
 }
