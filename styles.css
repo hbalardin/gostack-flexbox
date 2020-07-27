@@ -12,8 +12,13 @@ html, body, #app {
 }
 
 .box {
-  width: 60px;
+  width: 300px;
   height: 60px;
   margin: 5px;
   background: #F00;
+  
+  /* padrão: */
+  /* flex-grow: 0; */
+  /* flex-shrink: 0; */
+  flex: 1;
 }
